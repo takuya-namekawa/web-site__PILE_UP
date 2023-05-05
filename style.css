@@ -269,10 +269,12 @@ img {
 
 @media screen and (max-width: 767px) {
 
-  .container {
+   .container {
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 0 22px;
+    padding-top: 98px;
   }
-
   .site_name {
     font-size: 28px;
   }
